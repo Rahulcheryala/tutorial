@@ -1,12 +1,12 @@
 import React from "react";
-import Sidebarv2 from "./components/sidebarv2";
+import Sidebar from "./components/sidebar";
 import Table from "./components/table";
 
 const Mainpage = () => {
   return (
     <>
       <section className="flex">
-        <Sidebarv2 />
+        <Sidebar />
         <Table />
       </section>
     </>
