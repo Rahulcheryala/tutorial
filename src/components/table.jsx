@@ -15,7 +15,7 @@ const Headers = [
 
 const Table = () => {
   return (
-    <section className="relative flex justify-center items-center overflow-x-auto h-screen w-full pt-16">
+    <section className="relative flex justify-center items-center overflow-x-auto h-full w-full">
       <div className="border-2 border-gray-400 rounded-lg w-full mx-32 shadow-md p-1">
         <table className="w-full text-sm text-gray-500 rounded-lg">
           <thead className="text-xs bg-gray-50">

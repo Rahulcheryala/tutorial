@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Logo from "../Assets/Logo.png";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import { HiDotsVertical } from "react-icons/hi";
 import { RxAvatar } from "react-icons/rx";
@@ -25,13 +24,13 @@ const Links = [
   { name: "My Earnings", icon: <RiMoneyDollarCircleFill size={20} /> },
 ];
 
-const Sidebarv2 = () => {
+const Sidebar = () => {
   const [activeLink, setActiveLink] = useState("LeaderBoard");
   const [expanded, setExpanded] = useState(true);
 
   return (
     <aside
-      className={`h-screen transition-all duration-500 pt-16 ${
+      className={`h-full transition-all duration-500 ${
         expanded ? "w-80" : "w-16"
       }`}
     >
@@ -108,4 +107,4 @@ const Sidebarv2 = () => {
   );
 };
 
-export default Sidebarv2;
+export default Sidebar;
